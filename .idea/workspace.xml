@@ -2,57 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/hats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jackets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/men.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/blue-beanie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/blue-snapback.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/brown-brim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/brown-cowboy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/green-beanie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/grey-brim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/palm-tree-cap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/red-beanie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/hats/wolf-cap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/jackets/black-shearling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/jackets/blue-jean-jacket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/jackets/brown-shearling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/jackets/brown-trench.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/jackets/grey-jean-jacket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/mens/camo-vest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/mens/floral-shirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/mens/long-sleeve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/mens/pink-shirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/mens/polka-dot-shirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/mens/roll-up-jean-shirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/adidas-nmd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/black-converse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/nike-brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/nike-funky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/nikes-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/timberlands.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/white-nike-high-tops.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/sneakers/yeezy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/blue-tank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/floral-blouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/floral-skirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/red-polka-dot-dress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/striped-sweater.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/white-vest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/shop-img/womens/yellow-track-suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/sneakers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/womens.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\assets" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\header" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\collection-item" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\preview-collection" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\shop" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\menu-item" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -124,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585701728983</updated>
       <workItem from="1585701730463" duration="1202000" />
-      <workItem from="1585702947336" duration="10970000" />
+      <workItem from="1585702947336" duration="12880000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -140,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585769353795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updating app with a shop page, collection preview component, and a collection item component">
+      <created>1585771889958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585771889958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,13 +113,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="broken our homepage.component.jsx into smaller components, finished styling our menu-item components" />
     <MESSAGE value="Updated our menu-items to navigate withRouter HOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated our menu-items to navigate withRouter HOC" />
+    <MESSAGE value="updating app with a shop page, collection preview component, and a collection item component" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating app with a shop page, collection preview component, and a collection item component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1585771841042">
+    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1585775098383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585771841042" />
+    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585775098383" />
     <state x="272" y="320" key="FileChooserDialogImpl" timestamp="1585703257711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,10 +149,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="12" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585768392376" />
-    <state x="103" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585769384390">
+    <state x="103" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585771895443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="103" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585769384390" />
+    <state x="103" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585771895443" />
     <state x="167" y="244" key="run.anything.popup" timestamp="1585705730767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
