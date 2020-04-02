@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/crown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+    <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="Setup initial firebase authentication methods">
+      <change afterPath="$PROJECT_DIR$/src/assets/opensanscondensed-light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/opensanscondensed-light-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sing-up.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +55,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="wsl://UBUNTU@/usr/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\assets" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\custom-button" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\form-input" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\sign-in-and-sign-up" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\header" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\collection-item" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\preview-collection" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\shop" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -80,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585701728983</updated>
       <workItem from="1585701730463" duration="1202000" />
-      <workItem from="1585702947336" duration="12880000" />
+      <workItem from="1585702947336" duration="23887000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -103,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585771889958</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Header and styled components for Links to home and shop page">
+      <created>1585775130050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585775130050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,13 +134,15 @@
     <MESSAGE value="broken our homepage.component.jsx into smaller components, finished styling our menu-item components" />
     <MESSAGE value="Updated our menu-items to navigate withRouter HOC" />
     <MESSAGE value="updating app with a shop page, collection preview component, and a collection item component" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating app with a shop page, collection preview component, and a collection item component" />
+    <MESSAGE value="Created Header and styled components for Links to home and shop page" />
+    <MESSAGE value="Setup initial firebase authentication methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup initial firebase authentication methods" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1585775098383">
+    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1585785253227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585775098383" />
+    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585785253227" />
     <state x="272" y="320" key="FileChooserDialogImpl" timestamp="1585703257711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,14 +167,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1150" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585771841054" />
-    <state x="12" y="166" key="SettingsEditor" timestamp="1585768392376">
+    <state x="12" y="166" key="SettingsEditor" timestamp="1585784041738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="12" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585768392376" />
-    <state x="103" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585771895443">
+    <state x="12" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585784041738" />
+    <state x="103" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585775133524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="103" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585771895443" />
+    <state x="103" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585775133524" />
     <state x="167" y="244" key="run.anything.popup" timestamp="1585705730767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
