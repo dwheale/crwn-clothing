@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.components.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/david.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/david.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\collection" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\category" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\collections-overview" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\redux\shop" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\checkout-item" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\checkout" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\cart-item.component.jsx" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\cart-dropdown" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\cart-icon" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -83,7 +95,7 @@
       <updated>1585701728983</updated>
       <workItem from="1585701730463" duration="1202000" />
       <workItem from="1585702947336" duration="24800000" />
-      <workItem from="1585924304156" duration="30904000" />
+      <workItem from="1585924304156" duration="40187000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -183,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586025141665</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added addItem and removeItem functionality to checkout item component">
+      <created>1586027640513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586027640513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +225,8 @@
     <MESSAGE value="created cart item component and connected the cart dropdown with the cartItem reducer" />
     <MESSAGE value="updating application with reselect, replaced cart selectors with memoized selectors" />
     <MESSAGE value="added checkout page, checkout-item.component and updated cart to use selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="added checkout page, checkout-item.component and updated cart to use selectors" />
+    <MESSAGE value="added addItem and removeItem functionality to checkout item component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added addItem and removeItem functionality to checkout item component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586015391767">
@@ -217,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="438" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585954832994" />
-    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1586025139101">
+    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1586027638552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586025139101" />
+    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586027638552" />
     <state x="272" y="320" key="FileChooserDialogImpl" timestamp="1585703257711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,38 +249,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="378" y="417" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585703971788" />
-    <state width="1393" height="281" key="GridCell.Tab.0.bottom" timestamp="1586027602594">
+    <state width="1393" height="281" key="GridCell.Tab.0.bottom" timestamp="1586032616663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1393" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586027602594" />
-    <state width="1393" height="281" key="GridCell.Tab.0.center" timestamp="1586027602592">
+    <state width="1393" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586032616663" />
+    <state width="1393" height="281" key="GridCell.Tab.0.center" timestamp="1586032616662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1393" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586027602592" />
-    <state width="1393" height="281" key="GridCell.Tab.0.left" timestamp="1586027602592">
+    <state width="1393" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586032616662" />
+    <state width="1393" height="281" key="GridCell.Tab.0.left" timestamp="1586032616661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1393" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586027602592" />
-    <state width="1393" height="281" key="GridCell.Tab.0.right" timestamp="1586027602593">
+    <state width="1393" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586032616661" />
+    <state width="1393" height="281" key="GridCell.Tab.0.right" timestamp="1586032616662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1393" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586027602593" />
+    <state width="1393" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586032616662" />
     <state x="12" y="166" key="SettingsEditor" timestamp="1585948449420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="12" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585948449420" />
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586025143842">
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586027650021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586025143842" />
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586027650021" />
     <state x="167" y="244" key="run.anything.popup" timestamp="1585955565263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="167" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585955565263" />
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586026695810">
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586037235974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586026695810" />
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586037235974" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
