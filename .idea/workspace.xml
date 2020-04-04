@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
+    <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="Updated shop data with new data, updated cart utils to group items in cart reducer">
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <updated>1585701728983</updated>
       <workItem from="1585701730463" duration="1202000" />
       <workItem from="1585702947336" duration="24800000" />
-      <workItem from="1585924304156" duration="16824000" />
+      <workItem from="1585924304156" duration="20647000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585954482884</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added cartIcon and cart-dropdown components to application. Also implemented cartReducer">
+      <created>1585956159911</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585956159911</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,17 +176,19 @@
     <MESSAGE value="finished sign in handleSubmit method" />
     <MESSAGE value="added redux and implemented userReducer and userActions to header and app components&#10;&#10;Added a user profile page" />
     <MESSAGE value="Updated app to redirect user to home upon sign in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated app to redirect user to home upon sign in" />
+    <MESSAGE value="Added cartIcon and cart-dropdown components to application. Also implemented cartReducer" />
+    <MESSAGE value="Updated shop data with new data, updated cart utils to group items in cart reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated shop data with new data, updated cart utils to group items in cart reducer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585954832994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="438" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585954832994" />
-    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1585954481267">
+    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1586014989644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585954481267" />
+    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586014989644" />
     <state x="272" y="320" key="FileChooserDialogImpl" timestamp="1585703257711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,14 +217,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="12" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585948449420" />
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1585953808317">
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1585956165514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585953808317" />
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585956165514" />
     <state x="167" y="244" key="run.anything.popup" timestamp="1585955565263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="167" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585955565263" />
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586015150241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586015150241" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
