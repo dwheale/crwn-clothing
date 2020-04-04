@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\checkout-item" />
+      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages\checkout" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\cart-item.component.jsx" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\cart-dropdown" />
       <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\cart-icon" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\pages" />
-      <recent name="E:\Documents\Webstorm Projects\crwn-clothing\src\components\sign-up" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -82,7 +88,7 @@
       <updated>1585701728983</updated>
       <workItem from="1585701730463" duration="1202000" />
       <workItem from="1585702947336" duration="24800000" />
-      <workItem from="1585924304156" duration="24014000" />
+      <workItem from="1585924304156" duration="28498000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -168,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586016867842</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updating application with reselect, replaced cart selectors with memoized selectors">
+      <created>1586020633245</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586020633245</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +202,8 @@
     <MESSAGE value="Added cartIcon and cart-dropdown components to application. Also implemented cartReducer" />
     <MESSAGE value="Updated shop data with new data, updated cart utils to group items in cart reducer" />
     <MESSAGE value="created cart item component and connected the cart dropdown with the cartItem reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="created cart item component and connected the cart dropdown with the cartItem reducer" />
+    <MESSAGE value="updating application with reselect, replaced cart selectors with memoized selectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating application with reselect, replaced cart selectors with memoized selectors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586015391767">
@@ -200,10 +214,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="438" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585954832994" />
-    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1586016865930">
+    <state x="0" y="118" key="CommitChangelistDialog2" timestamp="1586020631508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586016865930" />
+    <state x="0" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586020631508" />
     <state x="272" y="320" key="FileChooserDialogImpl" timestamp="1585703257711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,18 +246,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="12" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585948449420" />
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586016870327">
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586020634377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586016870327" />
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586020634377" />
     <state x="167" y="244" key="run.anything.popup" timestamp="1585955565263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="167" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585955565263" />
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586017141184">
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586023924836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586017141184" />
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586023924836" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
