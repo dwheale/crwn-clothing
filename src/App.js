@@ -1,19 +1,19 @@
 import React from 'react'
-import {Switch, Route, Redirect} from 'react-router-dom'
-import {connect} from 'react-redux'
-import {createStructuredSelector} from 'reselect'
-
+import { Switch, Route, Redirect } from 'react-router-dom'
+import { connect } from 'react-redux'
+import { createStructuredSelector } from 'reselect'
 import './App.css'
 
-import Header from "./components/header/header.component";
+import Header from "./components/header/header.component"
 import HomePage from './pages/homepage/homepage.component'
-import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
-import ShopPage from "./pages/shop/shop.component";
-import {auth, createUserProfileDocument} from './firebase/firebase.utils'
-import {setCurrentUser} from './redux/user/user.actions'
+import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component"
+import ShopPage from "./pages/shop/shop.component"
+import { auth, createUserProfileDocument } from './firebase/firebase.utils'
+import { setCurrentUser } from './redux/user/user.actions'
 import UserProfile from './pages/user-profile/user-profile.component'
-import {selectCurrentUser} from './redux/user/user.selector'
+import { selectCurrentUser } from './redux/user/user.selector'
 import CheckoutPage from './pages/checkout/checkout.component'
+
 
 
 class App extends React.Component {
@@ -34,9 +34,9 @@ class App extends React.Component {
             }
           })
         })
-      } else {
-        setCurrentUser(userAuth)
       }
+      setCurrentUser(userAuth)
+      
     })
   }
   
@@ -49,12 +49,12 @@ class App extends React.Component {
         <div>
           <Header/>
           <Switch>
-            <Route exact path='/' component={HomePage}/>
-            <Route path='/shop' component={ShopPage}/>
+            <Route exact path='/' component={ HomePage }/>
+            <Route path='/shop' component={ ShopPage }/>
             <Route
                 exact
                 path='/signin'
-                render={() =>
+                render={ () =>
                     this.props.currentUser ? (
                         <Redirect to='/'/>
                     ) : (
@@ -62,8 +62,8 @@ class App extends React.Component {
                     )
                 }
             />
-            <Route exact path='/checkout' component={CheckoutPage} />
-            <Route path='/profile' component={UserProfile}/>
+            <Route exact path='/checkout' component={ CheckoutPage }/>
+            <Route path='/profile' component={ UserProfile }/>
           </Switch>
         </div>
     )

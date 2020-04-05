@@ -1,5 +1,5 @@
 import CartActionTypes from './cart.types'
-import {addItemToCart, removeItemFromCart} from './cart.utils'
+import { addItemToCart, removeItemFromCart } from './cart.utils'
 
 const INITIAL_STATE = {
   hidden: true,
@@ -33,4 +33,4 @@ const cartReducer = (state = INITIAL_STATE, action) => {
   }
 }
 
-export default cartReducer;
+export default cartReducer
