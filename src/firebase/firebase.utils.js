@@ -1,6 +1,7 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
+import { Firestore as firestore } from 'firebase'
 
 const config = {
   apiKey: "AIzaSyD_nH2x4qXFDEI0oMNqB-fp7-lX0eQfatc",
@@ -15,7 +16,7 @@ const config = {
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return
   
-  const userRef = firestore.doc(`users/${ userAuth.uid }`)
+  const userRef = db.doc(`users/${ userAuth.uid }`)
   
   const snapShot = await userRef.get()
   
@@ -69,7 +70,7 @@ export const convertCollectionsSnapshotToMap = (collections) => {
 firebase.initializeApp(config)
 
 export const auth = firebase.auth()
-export const firestore = firebase.firestore()
+export const db = firebase.firestore()
 
 const provider = new firebase.auth.GoogleAuthProvider()
 provider.setCustomParameters({ prompt: 'select_account' })
