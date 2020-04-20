@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -104,7 +98,8 @@
       <workItem from="1586538331723" duration="2869000" />
       <workItem from="1586611943163" duration="19948000" />
       <workItem from="1586957591545" duration="2037000" />
-      <workItem from="1587332252196" duration="3753000" />
+      <workItem from="1587332252196" duration="4397000" />
+      <workItem from="1587392741253" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -239,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586124328025</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="implemented  container pattern to HOCs">
+      <created>1587336049170</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587336049170</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +269,8 @@
     <MESSAGE value="updated stripe integration and updated our favicon and title" />
     <MESSAGE value="removing redux-logger from production build" />
     <MESSAGE value="Implemented code that pulls in our shop data from firestore and stores it into the shop reducer from our shop page. Included a WithSpinner HOC. Began implementing CSS in JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented code that pulls in our shop data from firestore and stores it into the shop reducer from our shop page. Included a WithSpinner HOC. Began implementing CSS in JS" />
+    <MESSAGE value="implemented  container pattern to HOCs" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented  container pattern to HOCs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1920" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586959037274">
@@ -286,10 +289,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="417" y="379" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586109268916" />
-    <state x="0" y="118" width="1011" height="811" key="CommitChangelistDialog2" timestamp="1586124319369">
+    <state x="0" y="118" width="1011" height="811" key="CommitChangelistDialog2" timestamp="1587336046399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="118" width="1011" height="811" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586124319369" />
+    <state x="0" y="118" width="1011" height="811" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587336046399" />
     <state x="-1648" y="320" key="FileChooserDialogImpl" timestamp="1586957974459">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -299,30 +302,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="378" y="417" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585703971788" />
-    <state width="1320" height="113" key="GridCell.Tab.0.bottom" timestamp="1586188730479">
+    <state width="1051" height="114" key="GridCell.Tab.0.bottom" timestamp="1587396037257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586188730479" />
-    <state width="1320" height="113" key="GridCell.Tab.0.center" timestamp="1586188730479">
+    <state width="1051" height="114" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587396037257" />
+    <state width="1051" height="114" key="GridCell.Tab.0.center" timestamp="1587396037256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586188730479" />
-    <state width="1320" height="113" key="GridCell.Tab.0.left" timestamp="1586188730478">
+    <state width="1051" height="114" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587396037256" />
+    <state width="1051" height="114" key="GridCell.Tab.0.left" timestamp="1587396037255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586188730478" />
-    <state width="1320" height="113" key="GridCell.Tab.0.right" timestamp="1586188730479">
+    <state width="1051" height="114" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587396037255" />
+    <state width="1051" height="114" key="GridCell.Tab.0.right" timestamp="1587396037257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586188730479" />
+    <state width="1051" height="114" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587396037257" />
     <state x="12" y="166" width="1242" height="715" key="SettingsEditor" timestamp="1586116146893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="12" y="166" width="1242" height="715" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586116146893" />
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586124347090">
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587336052215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586124347090" />
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587336052215" />
     <state x="91" y="100" width="1240" height="847" key="dock-window-1" timestamp="1586125378340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,11 +334,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="167" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585955565263" />
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587332858732">
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587397236597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1549" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586902665578" />
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587332858732" />
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587397236597" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
