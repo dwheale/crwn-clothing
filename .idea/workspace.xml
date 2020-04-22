@@ -19,24 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="reimplemented obtaining shop collections using redux-sagas">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
+    <list default="true" id="7b2c6a4c-7502-4460-b313-7fb5acaf66c3" name="Default Changelist" comment="created user and cart sagas for sign in, sign up and sign in with google.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +119,7 @@
       <workItem from="1587332252196" duration="4397000" />
       <workItem from="1587392741253" duration="4310000" />
       <workItem from="1587485140417" duration="2788000" />
-      <workItem from="1587503858355" duration="18257000" />
+      <workItem from="1587503858355" duration="21936000" />
     </task>
     <task id="LOCAL-00001" summary="broken our homepage.component.jsx into smaller components, finished styling our menu-item components">
       <created>1585706368375</created>
@@ -279,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587398288511</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="created user and cart sagas for sign in, sign up and sign in with google.">
+      <created>1587583267855</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1587583267856</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +316,8 @@
     <MESSAGE value="Implemented code that pulls in our shop data from firestore and stores it into the shop reducer from our shop page. Included a WithSpinner HOC. Began implementing CSS in JS" />
     <MESSAGE value="implemented  container pattern to HOCs" />
     <MESSAGE value="reimplemented obtaining shop collections using redux-sagas" />
-    <option name="LAST_COMMIT_MESSAGE" value="reimplemented obtaining shop collections using redux-sagas" />
+    <MESSAGE value="created user and cart sagas for sign in, sign up and sign in with google." />
+    <option name="LAST_COMMIT_MESSAGE" value="created user and cart sagas for sign in, sign up and sign in with google." />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1920" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586959037274">
@@ -374,11 +371,11 @@
     </state>
     <state x="12" y="166" width="1242" height="715" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586116146893" />
     <state x="395" y="201" width="985" height="708" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587504978687" />
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587504023742">
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587583271201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587398292702" />
-    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587504023742" />
+    <state x="87" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587583271201" />
     <state x="412" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587503531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -395,12 +392,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="167" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585955565263" />
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587582724245">
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587586823532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1549" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586902665578" />
     <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587397236597" />
-    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587582724245" />
+    <state x="371" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587586823532" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
