@@ -4,13 +4,13 @@ import 'firebase/auth';
 import { Firestore as firestore } from 'firebase';
 
 const config = {
-  apiKey: process.env.FIREBASE_API,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_DATABASE_URL,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID
+  apiKey: "AIzaSyD_nH2x4qXFDEI0oMNqB-fp7-lX0eQfatc",
+  authDomain: "crwn-db-ec09e.firebaseapp.com",
+  databaseURL: "https://crwn-db-ec09e.firebaseio.com",
+  projectId: "crwn-db-ec09e",
+  storageBucket: "crwn-db-ec09e.appspot.com",
+  messagingSenderId: "694336971018",
+  appId: "1:694336971018:web:cf10d7f92f7023d12a1af3"
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
