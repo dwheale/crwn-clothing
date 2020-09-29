@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
 if(process.env.NODE_ENV === 'production') {
+  console.log('Server running in Production');
   app.use(express.static(path.join(__dirname, 'client/build')))
 
   app.get('*', function(req, res) {
